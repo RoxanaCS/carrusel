@@ -1,0 +1,47 @@
+header, section{
+  text-align: center;
+}
+.logo{
+  width: 10em;
+    }
+.img1{
+  height: 30em;
+}
+#btn{
+  background: purple;
+  border: none;
+  color: white;
+  width: 6em;
+}
+.txt{
+  height: 5em;
+}
+#cont{
+  margin-left: 1em;
+}
+#cont div{
+  padding: 1em 0.5em;
+  margin-bottom: 2em;
+  outline: 0.1em solid #E5E3F2;
+  background-color: #FFF;
+}
+.heart, .trash{
+  margin: 1em;
+  float: right;
+}
+.trash:hover{
+  color: #1DA1F2;
+  cursor: pointer;
+}
+.red{
+  color: #FC1E26;
+  cursor: pointer;
+}
+p{
+  display: inline-block;
+  margin-left: 0.5em;
+}
+.strike-out{
+  text-decoration: line-through;
+  color: #1DA1F2;
+}
