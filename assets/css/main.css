@@ -1,47 +1,34 @@
-header, section{
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.logo{
-  width: 10em;
-    }
-.img1{
-  height: 30em;
+body{
+  font-family: sans-serif;
 }
-#btn{
-  background: purple;
-  border: none;
-  color: white;
-  width: 6em;
+ul, ol{
+  list-style: none;
 }
-.txt{
-  height: 5em;
+.slideshow{
+  width: 100%
 }
-#cont{
-  margin-left: 1em;
+.slider li, ul{
+  width: 100%;
 }
-#cont div{
-  padding: 1em 0.5em;
-  margin-bottom: 2em;
-  outline: 0.1em solid #E5E3F2;
-  background-color: #FFF;
+.slider li img{
+  width: 100%;
 }
-.heart, .trash{
-  margin: 1em;
-  float: right;
+.pagination{
+   padding-top: 1%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
 }
-.trash:hover{
-  color: #1DA1F2;
+.pagination li{
+  font-size: 1em;
+  margin: 1em 0.8em;
   cursor: pointer;
 }
-.red{
-  color: #FC1E26;
+.right, .left{
   cursor: pointer;
-}
-p{
-  display: inline-block;
-  margin-left: 0.5em;
-}
-.strike-out{
-  text-decoration: line-through;
-  color: #1DA1F2;
 }
