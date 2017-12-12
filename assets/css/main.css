@@ -5,6 +5,17 @@
 }
 body{
   font-family: sans-serif;
+  background-color: #BABABA;
+}
+.center{
+  text-align: center;
+}
+h1{
+  color: #059482;
+}
+img{
+  border: 0.5em solid #fff;
+  border-radius: 0.5em;
 }
 ul, ol{
   list-style: none;
@@ -23,12 +34,19 @@ ul, ol{
    width: 100%;
    display: flex;
    justify-content: center;
-}
+ }
 .pagination li{
   font-size: 1em;
-  margin: 1em 0.8em;
+  margin-left: 0.8em;
   cursor: pointer;
+  color: #858585;
+
 }
 .right, .left{
   cursor: pointer;
+  color: #858585;
+  font-size: 1em;
+}
+.left{
+  text-align: right;
 }

@@ -7,7 +7,7 @@ $(document).ready(function(){
   //ocultar imagenes salvo la primera
   $('.slider li').hide();
   $('.slider li:first').show();
-  $('.pagination li:first').css({'color':'#CD6E2E'});
+  $('.pagination li:first').css({'color':'#059482'});
 
   //Ejecución de funciones que se desciben más abajo
   $('.pagination li').click(pagination);
@@ -28,7 +28,7 @@ $(document).ready(function(){
     $('.slider li:nth-child('+ paginationPosition +')').fadeIn();
     //cambie color el circulo depende de la foto
     $('.pagination li').css({'color':'#858585'});
-    $(this).css({'color':'#CD6E2E'});
+    $(this).css({'color':'#059482'});
     imgPos = paginationPosition;
   }
 
@@ -40,7 +40,7 @@ $(document).ready(function(){
       imgPos++;
     }
     $('.pagination li').css({'color':'#858585'});
-    $('.pagination li:nth-child('+ imgPos +')').css({'color':'#CD6E2E'});
+    $('.pagination li:nth-child('+ imgPos +')').css({'color':'#059482'});
     $('.slider li').hide();
     $('.slider li:nth-child('+ imgPos +')').fadeIn();
   }
@@ -52,7 +52,7 @@ $(document).ready(function(){
       imgPos--;
     }
     $('.pagination li').css({'color':'#858585'});
-    $('.pagination li:nth-child('+ imgPos +')').css({'color':'#CD6E2E'});
+    $('.pagination li:nth-child('+ imgPos +')').css({'color':'#059482'});
     $('.slider li').hide();
     $('.slider li:nth-child('+ imgPos +')').fadeIn();
   }
